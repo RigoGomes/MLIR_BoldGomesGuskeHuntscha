@@ -627,7 +627,7 @@ head(Carseats)
             mse(Carseats$Sales[-half_auto3], pred3[-half_auto3])
             # Calculation of the MSE for the validation set, using the training model (lm.fit_cstr).
             # MSE=6.042666
-          
+            # Setting a different random seed results in a larger MSE, i.e. a larger average of the squares of errors.
           
       #3.2e Compute the LOOCV estimate for the MSE using the cv.glm function.
           library(boot)

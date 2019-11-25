@@ -396,7 +396,6 @@ summary(lungcap$Htcm)
         mean(cv.se)
         # We have to keep in mind that the CV standard error (se) for K=29 is higher than the mean CV se for all Ks. This lowers the reliability of the corresponding CV error rate value (in K=29).
 
-
 #2.8 Plot the misclassification errors using the code below. 
       
       library(colorspace)

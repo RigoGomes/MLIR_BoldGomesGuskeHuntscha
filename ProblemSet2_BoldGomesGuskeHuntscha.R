@@ -368,7 +368,7 @@ contour(px1,px2,matrix(prob,69,99),level=0.5,add=TRUE,col="blue",lwd=2) #optimal
     # Optimal value for c is again determined by 10-fold CV, in this example it is 1.
     # Gamma is a positive constant which influences the radial kernel used in the SVM.
     # Gamma determines the influence two points have on each other. The larger gamma, the smaller the influence.
-    # The larger gamma get the more "spiky" the hypersurface will be. The smaller gamma gets, the flatter the hypersurface will be.
+    # The larger gamma gets the more "spiky" the hypersurface will be. The smaller gamma gets, the flatter the hypersurface will be.
     # Thus, a large gamma will give you low bias and high variance while a small gamma will give you higher bias and low variance.
     # So a large gamma could lead to overfitting.
     # In this example, gamma is also determined by 10-fold CV. Out of 4 possible values for gamma, 5 is chosen.
